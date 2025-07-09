@@ -2,11 +2,11 @@ import 'dart:developer';
 
 import 'package:flutter/material.dart';
 
-import 'package:hooks_riverpod/hooks_riverpod.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../home/controller/providers.dart';
 
-class BPage extends HookConsumerWidget {
+class BPage extends ConsumerWidget {
   final String homeValue;
   final String aValue;
   const BPage({super.key, required this.homeValue, required this.aValue});

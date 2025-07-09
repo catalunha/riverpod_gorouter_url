@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:hooks_riverpod/hooks_riverpod.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:url_strategy/url_strategy.dart';
 
 import 'router_provider.dart';
@@ -11,7 +11,7 @@ void main() {
   runApp(ProviderScope(child: const App()));
 }
 
-class App extends HookConsumerWidget {
+class App extends ConsumerWidget {
   const App({super.key});
   @override
   Widget build(BuildContext context, WidgetRef ref) {

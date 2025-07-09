@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
-import 'package:hooks_riverpod/hooks_riverpod.dart';
 
 import '../../home/controller/providers.dart';
 import '../controller/providers.dart';
 
-class AWidget extends HookConsumerWidget {
+class AWidget extends ConsumerWidget {
   const AWidget({super.key});
   @override
   Widget build(BuildContext context, WidgetRef ref) {
