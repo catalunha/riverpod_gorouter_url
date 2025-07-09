@@ -8,7 +8,7 @@ import '../home/controller/providers.dart';
 
 import 'controller/providers.dart';
 import 'widgets/a_widget.dart';
-/*
+
 class APage extends ConsumerWidget {
   final String homeValue;
   const APage({super.key, required this.homeValue});
@@ -42,8 +42,8 @@ class APage extends ConsumerWidget {
     );
   }
 }
-*/
 
+/*
 class APage extends ConsumerStatefulWidget {
   final String homeValue;
   const APage({super.key, required this.homeValue});
@@ -103,3 +103,4 @@ class _APageState extends ConsumerState<APage> {
     );
   }
 }
+*/
